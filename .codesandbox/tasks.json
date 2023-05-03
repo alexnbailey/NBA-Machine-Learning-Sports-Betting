@@ -1,0 +1,13 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "$ git clone https://github.com/kyleskom/NBA-Machine-Learning-Sports-Betting.git $ cd NBA-Machine-Learning-Sports-Betting $ pip3 install -r requirements.txt $ python3 main.py -xgb -odds=fanduel": {
+      "name": "$ git clone https://github.com/kyleskom/NBA-Machine-Learning-Sports-Betting.git $ cd NBA-Machine-Learning-Sports-Betting $ pip3 install -r requirements.txt $ python3 main.py -xgb -odds=fanduel",
+      "command": "$ git clone https://github.com/kyleskom/NBA-Machine-Learning-Sports-Betting.git $ cd NBA-Machine-Learning-Sports-Betting $ pip3 install -r requirements.txt $ python3 main.py -xgb -odds=fanduel",
+      "runAtStart": true
+    }
+  }
+}
